@@ -20,7 +20,7 @@ jobs:
         with:
           azcliversion: latest
           inlineScript: |
-           echo "Successfully logged in to Azure."
+           echo "Successfully logged in to Azure1."
             az account show # Confirms the active account and subscription
           
             
