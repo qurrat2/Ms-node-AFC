@@ -61,5 +61,5 @@ jobs:
               --resource-group $RESOURCE_GROUP_NAME \
               --plan $APP_SERVICE_PLAN_NAME
 
-            echo "Deployment complete. Web App URL: https://${WEB_APP_NAME}.azurewebsites.net"
+            echo "Deployment completed. Web App URL: https://${WEB_APP_NAME}.azurewebsites.net"
             # --- END AZURE CLI SCRIPT ---
