@@ -32,11 +32,11 @@ jobs:
             az account show --output table
 
             # Define the target Resource Group and location
-            RESOURCE_GROUP_NAME="AFCTESTING" 
+            RESOURCE_GROUP_NAME="App-RG" 
             LOCATION="centralus" # Ensure this matches the RG's actual location
 
             # 🛑 IMPORTANT: The 'az group create' command is REMOVED.
-            # This workflow will FAIL if the 'AFCTESTING' RG does not already exist, 
+            # This workflow will FAIL if the 'App-RG' RG does not already exist, 
             # enforcing the security boundary defined by the Role Assignment.
 
             # 1. Verify the Resource Group exists and is accessible
